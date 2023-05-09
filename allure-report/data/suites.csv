@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Sat May 06 13:44:38 CEST 2023","Sat May 06 13:44:54 CEST 2023","15831","","Selfsubscription","","","","[MBWR-1454] : Direct redirection to ""Create account step""after an incomplete self subcription flow - Version 1 Montrer la chaine de caractères ghost Afficher auteur/modificateur (example #1)",""
+"passed","Sat May 06 13:44:26 CEST 2023","Sat May 06 13:44:30 CEST 2023","4195","","login","","","","MBWR : Login screen - unhappy flow with wrong password and username (example #1)",""
+"passed","Sat May 06 13:44:30 CEST 2023","Sat May 06 13:44:31 CEST 2023","1572","","login","","","","MBWR : Login screen - User try to login with a new password",""
+"passed","Sat May 06 13:45:07 CEST 2023","Sat May 06 13:45:14 CEST 2023","7341","","API","","","","visiting the frontpage with API request",""
+"failed","Sat May 06 13:44:24 CEST 2023","Sat May 06 13:44:26 CEST 2023","1628","","login","","","","MBWR-2 : Login screen - inactive login button when login fields are empty",""
+"passed","Sat May 06 13:44:17 CEST 2023","Sat May 06 13:44:24 CEST 2023","6700","","login","","","","visiting the frontpage (example #1)",""
+"failed","Sat May 06 13:44:54 CEST 2023","Sat May 06 13:45:00 CEST 2023","6868","","Selfsubscription","","","","[MBWR-1454] : Direct redirection to ""Create account step""after an incomplete self subcription flow (example #1)",""

@@ -1,0 +1,55 @@
+{
+
+  "scripts": {
+
+    "cy:run:chrome": "cypress run --browser chrome",
+
+    "cy:run:firefox": "cypress run --browser firefox",
+
+    "cypress:open": "cypress open",
+
+    "test:production": "npx cypress run --e2e",
+
+    "test:report": "npx cypress run --record --key 562406be-23d2-48e9-b67f-9bcc14ea3e19",
+    "allure:result":"npx cypress run --env allure=true ",
+    "allure:report": "yarn run allure generate allure-results — clean -o allure-report"
+
+  },
+
+  "dependencies": {
+    
+
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+
+    "@faker-js/faker": "^7.6.0",
+
+    "cucumber-json-report-formatter": "^0.1.4",
+
+    "cypress-esbuild-preprocessor": "^1.0.2",
+
+    "typescript": "^5.0.4"
+
+  },
+
+  "devDependencies": {
+
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+
+    "@cypress/webpack-preprocessor": "^5.17.1",
+
+    "@shelex/cypress-allure-plugin": "^2.38.5",
+
+    "allure-commandline": "^2.17.2",
+
+    "cypress": "^12.9.0",
+
+    "esbuild": "^0.17.16",
+
+    "multiple-cucumber-html-reporter": "^3.4.0",
+
+    "playwright-webkit": "^1.31.1"
+
+  }
+
+}
+
